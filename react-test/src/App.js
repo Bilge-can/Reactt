@@ -15,7 +15,6 @@ function App() {
               fjhsdkjfhsldjfhldsjkhfslkdjfhsdljhflsdkjfhldsjfhsjdfhslkdhdfj
               sdkjhfsdfhhldfsjkdhfsldjhflskdjfsldjfhslkjdhflsjdflskdjfhskdljh
           </p>
-
           <label htmlFor ="myinput">
             Name
               <input id ="myinput"/>
