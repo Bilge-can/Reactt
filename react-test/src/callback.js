@@ -52,14 +52,41 @@
 //}
 //getData();
 
-(async () => {
-    const users = await axios("https://jsonplaceholder.typicode.com/users");
+//(async () => {
+//    const users = await axios("https://jsonplaceholder.typicode.com/users");
 
-    const post1 = await axios("https://jsonplaceholder.typicode.com/posts/1");
+//    const post1 = await axios("https://jsonplaceholder.typicode.com/posts/1");
 
-    const post2 = await axios("https://jsonplaceholder.typicode.com/posts/2");
+//    const post2 = await axios("https://jsonplaceholder.typicode.com/posts/2");
 
-    console.log("users",users);
-    console.log("post1",post1);
-    console.log("post2",post2);
-})();
+//    console.log("users",users);
+//    console.log("post1",post1);
+//    console.log("post2",post2);
+//})();
+
+
+//const getComments = (number) =>{
+//    return new Promise((resolve, reject) =>{
+//        if (number ===1){
+//            resolve("bilge");
+//        }
+//            reject("Bir problem oldu!!");
+//    });
+//};
+
+//getComments(1)
+//.then((data) => console.log(data))
+//.catch((e) => console.log(e));
+
+
+//const getUsers = (number) =>{
+//    return new Promise(async (resolve, reject) =>{
+//       const {data} = await axios("https://jsonplaceholder.typicode.com/users");
+
+//       resolve(data);
+//    });
+//};
+
+//getUsers(2)
+//    .then((data) => console.log(data))
+//    .catch((e) => console.log(e));
