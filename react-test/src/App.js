@@ -6,24 +6,27 @@ import User from "./companents/User";
 //const surname ="Can";
 //const isLoggedIn = false;
 
-function App() {
-  return (
-      <div>
-          <Header />
-          <p className="xyz">
-            sdfghjklşslkdjldsjhfkfjhgjkdhkjfhglkjdfhgkjdfhgkdjhfgkjhkjh
-              fjhsdkjfhsldjfhldsjkhfslkdjfhsdljhflsdkjfhldsjfhsjdfhslkdhdfj
-              sdkjhfsdfhhldfsjkdhfsldjhflskdjfsldjfhslkjdhflsjdflskdjfhskdljh
-          </p>
-          <label htmlFor ="myinput">
-            Name
-              <input id ="myinput"/>
-          </label>
-      </div>
-  );
-}
+//function App() {
+//  return (
+//      <div>
+//          <Header />
+//          <p className="xyz">
+//            sdfghjklşslkdjldsjhfkfjhgjkdhkjfhglkjdfhgkjdfhgkdjhfgkjhkjh
+//              fjhsdkjfhsldjfhldsjkhfslkdjfhsdljhflsdkjfhldsjfhsjdfhslkdhdfj
+//              sdkjhfsdfhhldfsjkdhfsldjhflskdjfsldjfhslkjdhflsjdflskdjfhskdljh
+//              jghkdfjghkfjhkdjfghdkfjghdkfjghkfjghdfkjhgkfdjhgkjfhgkjdfhgkjdfhg
+//              dhkfjghkdfjhgkdfjhkfdhşskghlkdfaldiflşgjsjahkjfdopısnljeojaeşja
+//              asdbjkasbjksajkakjksşkjsşkajsdşlkasdjşlksjdilaskdjilaksdjialksdj
+//          </p>
+//          <label htmlFor ="myinput">
+//            Name
+//              <input id ="myinput"/>
+//          </label>
+//      </div>
+//  );
+//}
 
-export default App;
+//export default App;
 
 //function App(){
 //    return (
@@ -36,7 +39,27 @@ export default App;
 //                    :"Giriş yapmadınız."
 //                }
 //            </h1>
+//            <User/>
 //        </div>
 //    )
 //}
 //export default App;
+
+function App(){
+    return(
+        <>
+            <User
+                name= "Bilge"
+                surname="CAN"
+                isLoggedIn={true}
+                age={22}
+                friends= {["Ayse","Merve","Sıla","Tuna"]}
+                adress = {{
+                    title: 'Şişli',
+                    zip: 34755
+                }}
+            />
+        </>
+    );
+}
+export default App;
